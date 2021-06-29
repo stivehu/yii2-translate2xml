@@ -1,0 +1,22 @@
+{
+    "name": "stivehu/translate2xml",
+    "description": "Convert translate files to xml. ",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","converter","xml"],
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Gábor István",
+            "email": "stive.hu@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "phpoffice/phpspreadsheet": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "stivehu\\translate2xml\\": "src"
+        }
+    }
+}
